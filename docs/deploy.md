@@ -42,6 +42,12 @@ $ export GITHUB_REPO=Username/MyApp
 $ export API_USERNAME=hello
 $ export API_PASSWORD=world
 
+# Set default channel for downloads
+$ export DEAFULT_CHANNEL=staging
+
+# Restrict the instance to only staging
+$ export CHANNELS_MAKS=["staging"]
+
 # Express's "trust proxy" setting for trusting X-Forwarded-* headers when
 # behind a reverse proxy like nginx
 # http://expressjs.com/en/guide/behind-proxies.html

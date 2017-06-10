@@ -16,6 +16,12 @@
         },
         "API_PASSWORD": {
             "description": "Password for private API access"
+        },
+        "DEFAULT_CHANNEL": {
+            "description": "default channel to use when not specified (default is *)"
+        },
+        "CHANNELS_MASK": {
+            "description": "json list of channels to allow (default is all)"
         }
     }
 }

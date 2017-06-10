@@ -26,6 +26,8 @@ var myNuts = nuts.Nuts({
     timeout: process.env.VERSIONS_TIMEOUT,
     cache: process.env.VERSIONS_CACHE,
     refreshSecret: process.env.GITHUB_SECRET,
+    defaultChannel: process.env.DEFAULT_CHANNEL,
+    channelsMask: process.env.CHANNELS_MASK,
     proxyAssets: !Boolean(process.env.DONT_PROXY_ASSETS)
 });
 
